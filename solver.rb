@@ -17,5 +17,18 @@ class Solver
   end
 
   def fizzbuzz(num)
+    is_divisible_by_3 = num.modulo(3).zero?
+    is_divisible_by_5 = num.modulo(5).zero?
+    is_divisible_by_3_and_5 = is_divisible_by_3 && is_divisible_by_5
+
+    if is_divisible_by_3_and_5
+      'fizzbuzz'
+    elsif is_divisible_by_5
+      'buzz'
+    elsif is_divisible_by_3
+      'fizz'
+    else
+      num.to_s
+    end
   end
 end

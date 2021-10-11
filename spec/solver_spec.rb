@@ -55,7 +55,7 @@ describe Solver do
 
     context 'any other case' do
       it 'should return N as a string' do
-        expect(7).to eq '7'
+        expect(@solver.fizzbuzz(7)).to eq '7'
       end
     end
   end
