@@ -17,15 +17,14 @@ class Solver
   end
 
   def fizzbuzz(num)
-    is_divisible_by_3 = num.modulo(3).zero?
-    is_divisible_by_5 = num.modulo(5).zero?
-    is_divisible_by_3_and_5 = is_divisible_by_3 && is_divisible_by_5
+    is_divisible_by3 = num.modulo(3).zero?
+    is_divisible_by5 = num.modulo(5).zero?
 
-    if is_divisible_by_3_and_5
+    if is_divisible_by3 && is_divisible_by5
       'fizzbuzz'
-    elsif is_divisible_by_5
+    elsif is_divisible_by5
       'buzz'
-    elsif is_divisible_by_3
+    elsif is_divisible_by3
       'fizz'
     else
       num.to_s
