@@ -22,7 +22,8 @@ describe Solver do
       it 'should raise an exception' do
         expect {
           @solver.factorial(-5)
-        }.to raise_exception an_instance_of(StandardError).and having_attributes({ 'message' => 'This method only accepts 0 and positive integers' })
+        }.to raise_exception an_instance_of(StandardError)
+          .and(having_attributes({ 'message' => 'This method only accepts 0 and positive integers' }))
       end
     end
   end
