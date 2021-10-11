@@ -20,7 +20,7 @@ describe Solver do
 
     context 'negative integers' do
       it 'should raise an exception' do
-        expect { @solver.factorial(-5) }.to raise_exception
+        expect { @solver.factorial(-5) }.to raise_exception 'This method only accepts 0 and positive integers'
       end
     end
   end
