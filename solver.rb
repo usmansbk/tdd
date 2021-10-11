@@ -1,11 +1,11 @@
 class Solver
   def factorial(num)
-    raise StandardError('This method only accepts 0 and positive integers') if num < 0
+    raise StandardError, 'This method only accepts 0 and positive integers' if num.negative?
 
     result = 1
 
-    while num.positive? 
-      result *= n 
+    while num.positive?
+      result *= num
       num -= 1
     end
 
