@@ -1,6 +1,6 @@
-# Project Title
+# TDD Project
 
-Add a a project description
+Practice test-driven development (TDD) with RSpec
 
 ## Built With
 
@@ -20,10 +20,10 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download this repo on your machine
 - Enter project directory
 
-### Run
+### Test
 
 ```rb
-irb main_file.rb
+rspec
 ```
 
 ## Authors
@@ -34,11 +34,11 @@ irb main_file.rb
 - Twitter: [@usmansbk](https://twitter.com/usmansbk)
 - LinkedIn: [Usman Suleiman Babakolo](https://linkedin.com/in/usmansbk)
 
-👤 **Tolib**
+👤 **Denis**
 
-- GitHub: [@toliboff](https://github.com/toliboff)
-- Twitter: [@toliboff](https://twitter.com/toliboff)
-- LinkedIn: [Tolibjon Tolibov](https://linkedin.com/in/toliboff)
+- GitHub: [@denisdiaconu](https://github.com/denisdiaconu)
+- Twitter: [@denisdiaconu](https://twitter.com/denisdiaconu)
+- LinkedIn: [Denis Andrei Diaconu](https://linkedin.com/in/denisdiaconu)
 
 ## 🤝 Contributing
 
